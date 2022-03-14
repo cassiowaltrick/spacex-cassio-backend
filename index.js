@@ -25,7 +25,7 @@ function convertDataInStringPT_BR(data){
     (segundos<10?'0':'')+segundos;
 }
 
-server.listen(8000,()=>{   
+server.listen(process.env.PORT || 8000,()=>{   
     console.log(convertDataInStringPT_BR()
     +' Express started at http://localhost:8000')
 });
