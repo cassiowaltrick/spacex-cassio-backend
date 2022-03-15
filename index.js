@@ -9,7 +9,6 @@ server.use(express.json());
 
 function convertDataInStringPT_BR(data){
     var dataConvert = data==null?new Date():new Date(data);
-    debugger;
     var ano = dataConvert.getFullYear();
     var mes = dataConvert.getMonth()+1;
     var dia = dataConvert.getDate();
