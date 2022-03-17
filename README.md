@@ -1,6 +1,6 @@
 # Objetivo do projeto
 
-Este projeto é do BackEnd.
+Este projeto é do BackEnd. O FrontEnd se encontra no link (https://github.com/cassiowaltrick/spacex-cassio-frontend)
 
 Este projeto foi desenvolvido por Cássio Waltrick.
 A ideia dele é a execução de um desafio, onde deveria executar consultas na API da SPACE X (https://api.spacexdata.com/) e retornar as seguintes consultas.
