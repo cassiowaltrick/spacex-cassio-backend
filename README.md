@@ -5,10 +5,10 @@ Este projeto é do BackEnd. O FrontEnd se encontra no link (https://github.com/c
 Este projeto foi desenvolvido por Cássio Waltrick.
 A ideia dele é a execução de um desafio, onde deveria executar consultas na API da SPACE X (https://api.spacexdata.com/) e retornar as seguintes consultas.
 
-● Próximo lançamento;
-● Último lançamento;
-● Próximos lançamentos;
-● Lançamentos passados;
+● Próximo lançamento\
+● Último lançamento\
+● Próximos lançamentos\
+● Lançamentos passados
 
 ## Scripts Disponíveis
 
@@ -20,7 +20,7 @@ Para instalar todas as dependências do projeto permitindo que o projeto possa s
 
 ### `npm start`
 
-Irá executar a aplicação em modo de desenvolvimento.\
+Irá executar a aplicação em modo de desenvolvimento.
 
 A página será recarregada quando você fizer alterações.\
 Você também pode ver erros no console.
