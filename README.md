@@ -1,5 +1,6 @@
 # Objetivo do projeto
 
+(link para aplicação implantada no Heroku: https://spacex-frontend-cassio.herokuapp.com/)
 Este projeto é do BackEnd. O FrontEnd se encontra no link (https://github.com/cassiowaltrick/spacex-cassio-frontend)
 
 Este projeto foi desenvolvido por Cássio Waltrick.
