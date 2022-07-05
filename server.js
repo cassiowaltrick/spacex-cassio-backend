@@ -1,12 +1,14 @@
+
 const express = require('express');
 var cors = require('cors');
+const api = require('./api'); 
+const viacep = require('busca-cep');
+const cpfs = require('./CPF.json');
+const cnpjs = require('./CNPJ.json');
 
 const server = express();
 server.use(cors());
-
 server.use(express.json());
-
-const api = require('./api');
 
 function convertDataInStringPT_BR(data){
     var dataConvert = data==null?new Date():new Date(data);
@@ -64,6 +66,54 @@ server.get('/proximosLancamentos',async (req,res)=>{
     try{
         const{data}= await api.get('upcoming');
         return mapListaLancamentos(data,res);
+    }catch(error){
+        return res.json({error:error.message});
+    }
+});
+
+server.get('/cpf/:cpf',async (req,res)=>{
+    try{
+        var cpf = req.params.cpf;
+        var lista = cpfs.filter(e=>{ return e.CPF == cpf});
+        if(lista.length>0){
+            return res.json(lista[0]);
+        }else{
+            return res.json({});
+        }
+    }catch(error){
+        return res.json({error:error.message});
+    }
+});
+
+server.get('/cnpj/:cnpj',async (req,res)=>{
+    try{
+        var cnpj = req.params.cnpj;
+        var lista = cnpjs.filter(e=>{ return e.NI == cnpj});
+        return res.json(lista);
+    }catch(error){
+        return res.json({error:error.message});
+    }
+});
+
+server.get('/cep/:cep',async (req,res)=>{
+    try{
+        var cep = req.params.cep;
+        var resposta = viacep(cep, {sync: true});
+        if(!resposta.hasError){
+            return res.json({
+                cep: resposta.cep,
+                TipoCep: "",
+                SubTipoCep:"",
+                UF: resposta.uf,
+                Cidade: resposta.localidade,
+                Bairro: resposta.bairro,
+                Endereco: resposta.logradouro,
+                Complemento: resposta.complemento,
+                CodigoIBGE: resposta.ibge
+            });
+        }else{
+            return res.json(resposta);
+        }
     }catch(error){
         return res.json({error:error.message});
     }

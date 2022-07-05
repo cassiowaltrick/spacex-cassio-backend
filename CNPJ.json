@@ -1,0 +1,240 @@
+[
+    {
+        "NI": "33683111000107",
+        "TipoEstabelecimento": "1",
+        "NomeEmpresarial": "UHIEQKX WHNHIWD NH FIXKHUUWPHMVX NH NWNXU (UHIFIX)",
+        "NomeFantasia": "UHIFIX UHNH",
+        "SituacaoCadastral": {
+            "Codigo": "2",
+            "Data": "2004-05-22",
+            "Motivo": ""
+        },
+        "NaturezaJuridica": {
+            "Codigo": "2011",
+            "Descricao": "Empresa Pública"
+        },
+        "DataAbertura": "1967-06-30",
+        "CNAEPrincipal": {
+            "Codigo": "6204000",
+            "Descricao": "Consultoria em tecnologia da informação"
+        },
+        "CNAESecundarias": null,
+        "Endereco": {
+            "TipoLogradouro": "SETOR",
+            "Logradouro": "NH BIWMNH WIHW MXIVH",
+            "Numero": "Q.601",
+            "Complemento": "LOTE V",
+            "CEP": "70836900",
+            "Bairro": "ASA NORTE",
+            "Municipio": {
+                "Codigo": "9701",
+                "Descricao": ""
+            },
+            "UF": "DF",
+            "Pais": {
+                "Codigo": "105",
+                "Descricao": "BRASIL"
+            }
+        },
+        "MunicipioJurisdicao": {
+            "Codigo": "0110100",
+            "Descricao": "BRASÍLIA"
+        },
+        "Telefones": [
+            {
+                "DDD": "61",
+                "Numero": "20218000"
+            },
+            {
+                "DDD": "61",
+                "Numero": "20218133"
+            }
+        ],
+        "CorreioEletronico": "SECRETARIA.DIRETORIA@SERPRO.GOV.BR",
+        "CapitalSocial": "106100482923",
+        "Porte": "05",
+        "SituacaoEspecial": "",
+        "DataSituacaoEspecial": "",
+        "InformacoesAdicionais": {
+            "OptanteSimples": "NÃO",
+            "OptanteMei": "NÃO"
+        },
+        "ListaPeriodoSimples": null,
+        "Socios": [
+            {
+                "TipoSocio": "2",
+                "CPF": "82898995134",
+                "Nome": "IRXZIWL XVAZI WV NLFIZ QFXZ",
+                "Qualificacao": "10",
+                "DataInclusao": "2020-05-12",
+                "Pais": {
+                    "Codigo": "105",
+                    "Descricao": "BRASIL"
+                },
+                "RepresentanteLegal": {
+                    "CPF": "00000000000",
+                    "Nome": "",
+                    "Qualificacao": "00"
+                }
+            },
+            {
+                "TipoSocio": "2",
+                "CPF": "12159590100",
+                "Nome": "ZMGLMRL WV KZWFZ UVIIVRIZ KZHHLH",
+                "Qualificacao": "10",
+                "DataInclusao": "2016-12-08",
+                "Pais": {
+                    "Codigo": "105",
+                    "Descricao": "BRASIL"
+                },
+                "RepresentanteLegal": {
+                    "CPF": "00000000000",
+                    "Nome": "",
+                    "Qualificacao": "00"
+                }
+            },
+            {
+                "TipoSocio": "2",
+                "CPF": "11041412720",
+                "Nome": "DROHLM YRZMXZIWR XLFIB",
+                "Qualificacao": "10",
+                "DataInclusao": "2019-06-18",
+                "Pais": {
+                    "Codigo": "105",
+                    "Descricao": "BRASIL"
+                },
+                "RepresentanteLegal": {
+                    "CPF": "00000000000",
+                    "Nome": "",
+                    "Qualificacao": "00"
+                }
+            },
+            {
+                "TipoSocio": "2",
+                "CPF": "41822005000",
+                "Nome": "ZMWIV WV XVHVIL",
+                "Qualificacao": "10",
+                "DataInclusao": "2016-06-16",
+                "Pais": {
+                    "Codigo": "105",
+                    "Descricao": "BRASIL"
+                },
+                "RepresentanteLegal": {
+                    "CPF": "00000000000",
+                    "Nome": "",
+                    "Qualificacao": "00"
+                }
+            },
+            {
+                "TipoSocio": "2",
+                "CPF": "49907344753",
+                "Nome": "ZMGLMRML WLH HZMGLH TFVIIZ MVGL",
+                "Qualificacao": "05",
+                "DataInclusao": "2019-02-11",
+                "Pais": {
+                    "Codigo": "105",
+                    "Descricao": "BRASIL"
+                },
+                "RepresentanteLegal": {
+                    "CPF": "00000000000",
+                    "Nome": "",
+                    "Qualificacao": "00"
+                }
+            }
+        ],
+        "ReturnCode": 0,
+        "Message": null,
+        "Sucesso": true
+    },
+    {
+        "NI": "60453032000174",
+        "TipoEstabelecimento": "1",
+        "NomeEmpresarial": "GMQEHIUQNWNH WHNHIWD NH UWX FWGDX",
+        "NomeFantasia": "",
+        "SituacaoCadastral": {
+            "Codigo": "2",
+            "Data": "2005-11-03",
+            "Motivo": ""
+        },
+        "NaturezaJuridica": {
+            "Codigo": "1104",
+            "Descricao": "Autarquia Federal"
+        },
+        "DataAbertura": "1967-01-31",
+        "CNAEPrincipal": {
+            "Codigo": "8531700",
+            "Descricao": "Educação superior - graduação"
+        },
+        "CNAESecundarias": [
+            {
+                "Codigo": "8533300",
+                "Descricao": "Educação superior - pós-graduação e extensão"
+            },
+            {
+                "Codigo": "8640202",
+                "Descricao": "Laboratórios clínicos"
+            },
+            {
+                "Codigo": "7120100",
+                "Descricao": "Testes e análises técnicas"
+            },
+            {
+                "Codigo": "7210000",
+                "Descricao": "Pesquisa e desenvolvimento experimental em ciências físicas e naturais"
+            },
+            {
+                "Codigo": "2110600",
+                "Descricao": "Fabricação de produtos farmoquímicos"
+            },
+            {
+                "Codigo": "7119799",
+                "Descricao": "Atividades técnicas relacionadas à engenharia e arquitetura não especificadas anteriormente"
+            },
+            {
+                "Codigo": "9102301",
+                "Descricao": "Atividades de museus e de exploração de lugares e prédios históricos e atrações similares"
+            }
+        ],
+        "Endereco": {
+            "TipoLogradouro": "AVENIDA",
+            "Logradouro": "UHMW PWNGIHQIW",
+            "Numero": "1500",
+            "Complemento": "ANDAR 5",
+            "CEP": "04021001",
+            "Bairro": "VILA CLEMENTINO",
+            "Municipio": {
+                "Codigo": "7107",
+                "Descricao": ""
+            },
+            "UF": "SP",
+            "Pais": {
+                "Codigo": "105",
+                "Descricao": "BRASIL"
+            }
+        },
+        "MunicipioJurisdicao": {
+            "Codigo": "0818000",
+            "Descricao": "SÃO PAULO"
+        },
+        "Telefones": [
+            {
+                "DDD": "11",
+                "Numero": "30853120"
+            }
+        ],
+        "CorreioEletronico": "REITORIA@UNIFESP.BR",
+        "CapitalSocial": "0",
+        "Porte": "05",
+        "SituacaoEspecial": "",
+        "DataSituacaoEspecial": "",
+        "InformacoesAdicionais": {
+            "OptanteSimples": "NÃO",
+            "OptanteMei": "NÃO"
+        },
+        "ListaPeriodoSimples": null,
+        "Socios": null,
+        "ReturnCode": 0,
+        "Message": null,
+        "Sucesso": true
+    }
+]
