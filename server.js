@@ -1,15 +1,13 @@
 
 const express = require('express');
-var cors = require('cors');
+const cors = require('cors');
 const api = require('./api'); 
 const viacep = require('busca-cep');
 const cpfs = require('./CPF.json');
 const cnpjs = require('./CNPJ.json');
 
 const server = express();
-server.use(cors());
 server.use(express.json());
-
 server.use((req, res, next) => {
 	//Qual site tem permissão de realizar a conexão, no exemplo abaixo está o "*" indicando que qualquer site pode fazer a conexão
     res.header("Access-Control-Allow-Origin", "*");
