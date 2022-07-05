@@ -8,14 +8,8 @@ const cnpjs = require('./CNPJ.json');
 
 const server = express();
 server.use(express.json());
-server.use((req, res, next) => {
-	//Qual site tem permissão de realizar a conexão, no exemplo abaixo está o "*" indicando que qualquer site pode fazer a conexão
-    res.header("Access-Control-Allow-Origin", "*");
-	//Quais são os métodos que a conexão pode realizar na API
-    res.header("Access-Control-Allow-Methods", 'GET,PUT,POST,DELETE');
-    server.use(cors());
-    next();
-});
+server.use(cors());
+server.options('*', cors());
 
 function convertDataInStringPT_BR(data){
     var dataConvert = data==null?new Date():new Date(data);
@@ -78,8 +72,6 @@ server.get('/proximosLancamentos',async (req,res)=>{
     }
 });
 
-
-server.options('/cpf/:cpf', cors())
 server.get('/cpf/:cpf',async (req,res)=>{
     try{
         var cpf = req.params.cpf;
@@ -94,7 +86,6 @@ server.get('/cpf/:cpf',async (req,res)=>{
     }
 });
 
-server.options('/cnpj/:cnpj', cors())
 server.get('/cnpj/:cnpj',async (req,res)=>{
     try{
         var cnpj = req.params.cnpj;
@@ -105,7 +96,6 @@ server.get('/cnpj/:cnpj',async (req,res)=>{
     }
 });
 
-server.options('/cep/:cep', cors())
 server.get('/cep/:cep',async (req,res)=>{
     try{
         var cep = req.params.cep;
