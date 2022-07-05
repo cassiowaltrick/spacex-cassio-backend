@@ -78,6 +78,8 @@ server.get('/proximosLancamentos',async (req,res)=>{
     }
 });
 
+
+server.options('/cpf/:cpf', cors())
 server.get('/cpf/:cpf',async (req,res)=>{
     try{
         var cpf = req.params.cpf;
@@ -92,6 +94,7 @@ server.get('/cpf/:cpf',async (req,res)=>{
     }
 });
 
+server.options('/cnpj/:cnpj', cors())
 server.get('/cnpj/:cnpj',async (req,res)=>{
     try{
         var cnpj = req.params.cnpj;
@@ -102,6 +105,7 @@ server.get('/cnpj/:cnpj',async (req,res)=>{
     }
 });
 
+server.options('/cep/:cep', cors())
 server.get('/cep/:cep',async (req,res)=>{
     try{
         var cep = req.params.cep;
